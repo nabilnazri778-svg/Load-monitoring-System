@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import streamlit as st
 import sqlite3
 import os
@@ -206,33 +205,9 @@ else:
     st.info("No notes available")
 
 conn.close()
-=======
+
 import streamlit as st
 
-st.title("📚 Learning Notes")
 
-topic = st.selectbox(
-    "Choose Topic",
-    [
-        "Beban Mati",
-        "Beban Hidup",
-        "Daya Tegangan",
-        "Daya Mampatan",
-        "Faktor Keselamatan"
-    ]
-)
 
-if topic == "Beban Mati":
-    st.header("Beban Mati")
-    st.write("""
-    Beban mati ialah beban kekal yang berasal
-    daripada berat struktur bangunan sendiri.
-    """)
 
-elif topic == "Beban Hidup":
-    st.header("Beban Hidup")
-    st.write("""
-    Beban hidup ialah beban yang berubah
-    mengikut penggunaan bangunan.
-    """)
->>>>>>> 560a7b9ecbd9845f259431c99c596a61f73df7ac
