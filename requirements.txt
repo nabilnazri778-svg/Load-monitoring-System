@@ -1,2 +1,10 @@
+<<<<<<< HEAD
 streamlit-autorefresh
 requests
+=======
+streamlit
+pandas
+plotly
+sqlalchemy
+pillow
+>>>>>>> 560a7b9ecbd9845f259431c99c596a61f73df7ac
